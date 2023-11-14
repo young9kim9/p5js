@@ -4,19 +4,22 @@ html, body {
   }
   canvas {
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
   }
 
 a {
   display: inline-block;
   position: absolute;
   top: 700px;
-  left: 800px;
+  left: 700px;
   font-size: 30pt;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   cursor: pointer;
 }
-  
+
+img {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}

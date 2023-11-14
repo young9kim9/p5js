@@ -17,7 +17,7 @@ for (let i = 0; i < segNum; i++) {
 }
 
 function setup() {
-  createCanvas(710, 400);
+  createCanvas(displayWidth, displayHeight);
   strokeWeight(50);
   stroke(255, 10);
 }
