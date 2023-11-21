@@ -23,11 +23,11 @@ function setup() {
     );
   }
   noStroke();
-  fill(255, 500);
+  fill(100,17,178);
 }
 
 function draw() {
-  background(95, 158, 160);
+  background(55,218,193);
   balls.forEach(ball => {
     ball.collide();
     ball.move();

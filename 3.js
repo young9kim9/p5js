@@ -19,7 +19,7 @@ function draw() {
   let t = frameCount / 600; // update time
 
   // create a random number of snowflakes each frame
-  for (let i = 0; i < random(5); i++) {
+  for (let i = 0; i < random(30); i++) {
     snowflakes.push(new snowflake()); // append snowflake object
   }
 
@@ -36,7 +36,7 @@ function snowflake() {
   this.posX = 0;
   this.posY = random(-50, 0);
   this.initialangle = random(0, 2 * PI);
-  this.size = random(1, 5);
+  this.size = random(1, 8);
 
   // radius of snowflake spiral
   // chosen so the snowflakes are uniformly spread out in area

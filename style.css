@@ -19,4 +19,15 @@ a {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   cursor: pointer;
 }
+
+p {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 300px;
+  font-size: 14pt;
+  color: rgb(255, 255, 255);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
   

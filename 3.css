@@ -10,7 +10,7 @@ a {
   display: inline-block;
   position: absolute;
   top: 700px;
-  left: 700px;
+  left: 690px;
   font-size: 30pt;
   color: rgb(0, 0, 0);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -22,4 +22,15 @@ img {
     position: absolute;
     top: 50px;
     left: 200px;
+}
+
+p {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 300px;
+  font-size: 14pt;
+  color: rgb(255, 255, 255);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
